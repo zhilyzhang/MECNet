@@ -1,4 +1,4 @@
-#MECNet  
+# MECNet  
 This repo holds code for [MECNet: Rich CNN features for water-body segmentation from very high resolution aerial and 
 satellite imagery]()  
 The network is to identify the outline of water-bodies accurately from very high resolution (VHR) remote sensing 
