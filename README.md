@@ -43,7 +43,7 @@ python predict.py
 @article{Alisirs2021MECNet,
   title={MECNet: Rich CNN features for water-body segmentation from very high resolution aerial and 
 satellite imagery},
-  author={Zhang, Zhili and others},
+  author={Zhili Zhang, Meng Lu, Shunping Ji, Huafen Yu and Chenhui Nie},
   journal={remotesensing-1173355},
   year={2021}
 }
