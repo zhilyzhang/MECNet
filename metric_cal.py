@@ -50,8 +50,8 @@ def metrics(confu_mat_total):
     FP = raw_sum - TP
 
     # 计算并写出precision，recall, IOU
-    precision = TP[1] / col_sum[1]
-    recall = TP[1] / raw_sum[1]
+    precision = TP[1] / (TP[1]+FP[1])
+    recall = TP[1] / (TP[1]+FN[1])
     iou = TP[1] / (TP[1] + FP[1] + FN[1])
 
     return oa, precision, recall, iou
